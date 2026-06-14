@@ -1,0 +1,438 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#081018;
+    color:white;
+    font-family:Arial,sans-serif;
+    line-height:1.8;
+}
+
+.hero{
+    height:100vh;
+
+    background:url("hero.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.overlay{
+    background:rgba(0,0,0,0.65);
+
+    padding:50px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    width:80%;
+
+    max-width:900px;
+}
+
+h1{
+    font-size:90px;
+
+    margin-bottom:20px;
+
+    color:#ffd166;
+}
+
+.button{
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:12px 30px;
+
+    background:#ffd166;
+
+    color:black;
+
+    text-decoration:none;
+
+    border-radius:30px;
+
+    font-weight:bold;
+}
+
+.button:hover{
+    background:white;
+}
+
+nav{
+    background:#101820;
+
+    text-align:center;
+
+    padding:20px;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+}
+
+nav a{
+    color:white;
+
+    text-decoration:none;
+
+    margin:15px;
+
+    font-size:18px;
+}
+
+nav a:hover{
+    color:#ffd166;
+}
+
+section{
+    width:90%;
+
+    max-width:1300px;
+
+    margin:80px auto;
+}
+
+h2{
+    color:#ffd166;
+
+    font-size:42px;
+
+    margin-bottom:30px;
+
+    text-align:center;
+}
+
+img{
+    width:100%;
+
+    border-radius:15px;
+
+    display:block;
+}
+
+.country-card{
+    background:#111b25;
+
+    margin-bottom:40px;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+.country-card img{
+    height:450px;
+
+    object-fit:cover;
+}
+
+.country-card h3{
+    padding:20px;
+
+    font-size:32px;
+
+    color:#ffd166;
+}
+
+.country-card p{
+    padding:0 20px 20px;
+}
+
+.gallery{
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(300px,1fr));
+
+    gap:20px;
+}
+
+.gallery img{
+    height:250px;
+
+    object-fit:cover;
+
+    transition:0.4s;
+}
+
+.gallery img:hover{
+    transform:scale(1.03);
+}
+
+.facts{
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+}
+
+.fact{
+    background:#111b25;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    text-align:center;
+}
+
+.fact h3{
+    color:#ffd166;
+
+    font-size:35px;
+
+    margin-bottom:15px;
+}
+
+footer{
+    background:#101820;
+
+    text-align:center;
+
+    padding:60px 20px;
+
+    margin-top:80px;
+}
+
+footer h3{
+    color:#ffd166;
+
+    font-size:35px;
+
+    margin-bottom:15px;
+}
+
+p{
+    font-size:18px;
+}
+
+section p{
+    margin-bottom:20px;
+}
+
+@media(max-width:900px){
+
+h1{
+    font-size:60px;
+}
+
+h2{
+    font-size:34px;
+}
+
+.country-card img{
+    height:300px;
+}
+
+}
+
+@media(max-width:600px){
+
+h1{
+    font-size:45px;
+}
+
+.overlay{
+    padding:25px;
+}
+
+nav a{
+    display:inline-block;
+
+    margin:8px;
+}
+
+.country-card img{
+    height:220px;
+}
+
+.gallery{
+    grid-template-columns:1fr;
+}
+
+}
+.country-card{
+transition:0.4s;
+}
+
+.country-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px rgba(255,209,102,0.3);
+}
+
+.country-card h3{
+transition:0.4s;
+}
+
+.country-card:hover h3{
+color:white;
+}
+
+section{
+animation:fadein 1s;
+}
+
+@keyframes fadein{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+::-webkit-scrollbar{
+width:12px;
+}
+
+::-webkit-scrollbar-track{
+background:#081018;
+}
+
+::-webkit-scrollbar-thumb{
+background:#ffd166;
+border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background:#ffe29a;
+}
+
+nav{
+box-shadow:0 5px 20px rgba(0,0,0,0.4);
+}
+
+h2{
+position:relative;
+padding-bottom:15px;
+}
+
+h2::after{
+content:"";
+width:120px;
+height:4px;
+background:#ffd166;
+display:block;
+margin:15px auto 0;
+border-radius:10px;
+}
+
+img{
+transition:0.5s;
+}
+
+img:hover{
+filter:brightness(110%);
+}
+
+.button{
+transition:0.4s;
+}
+
+.button:hover{
+transform:scale(1.05);
+}
+
+.fact{
+transition:0.4s;
+}
+
+.fact:hover{
+transform:translateY(-10px);
+background:#152434;
+}
+
+footer{
+border-top:2px solid #ffd166;
+}
+
+.country-card p{
+font-size:19px;
+}
+
+.country-card{
+border:1px solid #1d2d40;
+}
+
+.gallery img{
+border:2px solid #1d2d40;
+}
+
+.gallery img:hover{
+border-color:#ffd166;
+}
+
+body{
+background-image:
+linear-gradient(
+180deg,
+#081018 0%,
+#0d1520 50%,
+#081018 100%
+);
+}
+
+.hero::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.25);
+}
+
+.hero{
+position:relative;
+}
+
+.overlay{
+position:relative;
+z-index:2;
+}
+
+.country-card:nth-child(even){
+background:#13202d;
+}
+
+.country-card:nth-child(odd){
+background:#111b25;
+}
+
+.fact h3{
+text-shadow:0 0 10px rgba(255,209,102,0.4);
+}
+
+footer p{
+opacity:0.8;
+}
+
+nav a{
+transition:0.3s;
+}
+
+nav a:hover{
+text-shadow:0 0 10px #ffd166;
+}
