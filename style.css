@@ -157,6 +157,8 @@ h2{
 .country-card img{
     height:300px;
 }
+}
+
 @media(max-width:600px){
 h1{
     font-size:45px;
