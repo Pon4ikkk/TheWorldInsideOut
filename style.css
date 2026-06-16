@@ -362,3 +362,6 @@ transition:0.4s;
 .socials a:hover i{
 transform:rotate(360deg);
 }
+body{
+border:10px solid red !important;
+}
