@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pon4ikkk.github.io/TheWorldInsideOut/sitemap.xml
