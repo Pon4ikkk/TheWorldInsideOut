@@ -102,6 +102,7 @@ document.addEventListener("click", (e) => {
         ${c.description.map((p) => `<p>${p}</p>`).join("")}
         ${c.highlights ? `<h3 class="country-h3">Що побачила команда</h3><ul class="country-highlights">${c.highlights.map((h) => `<li>${h}</li>`).join("")}</ul>` : ""}
         ${c.fact ? `<div class="country-fact"><strong>Цікавий факт</strong>${c.fact}</div>` : ""}
+        ${c.video ? `<div class="country-video reveal"><h3 class="country-h3">Відео експедиції</h3><div class="video-frame"><iframe src="https://www.youtube.com/embed/${c.video}" title="${c.name} — Світ Навиворіт" allowfullscreen loading="lazy"></iframe></div></div>` : ""}
       </article>
       <aside class="country-info">
         <h3 class="country-h3">Короткі відомості</h3>
