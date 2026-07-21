@@ -2,7 +2,7 @@ window.COUNTRIES = [
   {
     slug:"india", name:"Індія", flag:"🇮🇳", image:"images/india.jpg",
     short:"Життя на берегах Гангу, священні міста та стародавні традиції.",
-    capital:"Нью-Делі", language:"гінді, англійська", currency:"індійська рупія", population:"1,4 млрд", bestTime:"жовтень — березень", episodes:12,
+    capital:"Нью-Делі", language:"гінді, англійська", currency:"індійська рупія", population:"1,4 млрд", bestTime:"жовтень — березень", episodes:16,
     description:[
       "Одна з найвідоміших експедицій проєкту. Команда показала життя на берегах Гангу, найдавніші традиції, священні міста, індійські весілля та побут місцевих жителів.",
       "Зйомки проходили у Варанасі — одному з найстаріших міст світу, де на гатах відбуваються ритуали кремації та ранкові омовіння паломників. Також команда побувала в Раджастані, де пустеля Тар зустрічається з барвистими фортецями махараджів.",
@@ -14,7 +14,7 @@ window.COUNTRIES = [
   {
     slug:"nepal", name:"Непал", flag:"🇳🇵", image:"images/nepal.jpg",
     short:"Підніжжя Евересту, шерпи та суворі умови Гімалаїв.",
-    capital:"Катманду", language:"непальська", currency:"непальська рупія", population:"30 млн", bestTime:"березень — травень, жовтень — листопад", episodes:10,
+    capital:"Катманду", language:"непальська", currency:"непальська рупія", population:"30 млн", bestTime:"березень — травень, жовтень — листопад", episodes:15,
     video:"64G7ObR5FhA",
     description:[
       "Подорож до підніжжя Евересту, життя шерпів, буддійські монастирі та суворі умови Гімалаїв.",
@@ -27,7 +27,7 @@ window.COUNTRIES = [
   {
     slug:"japan", name:"Японія", flag:"🇯🇵", image:"images/japan.jpg",
     short:"Країна майбутнього, самураїв та швидкісних поїздів.",
-    capital:"Токіо", language:"японська", currency:"єна", population:"125 млн", bestTime:"березень — травень (сакура), листопад", episodes:14,
+    capital:"Токіо", language:"японська", currency:"єна", population:"125 млн", bestTime:"березень — травень (сакура), листопад", episodes:15,
     video:"cHOzL8xAV6g",
     description:[
       "Країна майбутнього, швидкісних поїздів, традицій самураїв та сучасних технологій.",
@@ -40,7 +40,7 @@ window.COUNTRIES = [
   {
     slug:"china", name:"Китай", flag:"🇨🇳", image:"images/china.jpg",
     short:"Велика стіна, стародавні традиції та мегаполіси.",
-    capital:"Пекін", language:"мандаринська", currency:"юань", population:"1,4 млрд", bestTime:"квітень — червень, вересень — жовтень", episodes:20,
+    capital:"Пекін", language:"мандаринська", currency:"юань", population:"1,4 млрд", bestTime:"квітень — червень, вересень — жовтень", episodes:29,
     video:"TyUnJy4z5Mw",
     description:[
       "Велика китайська стіна, стародавні традиції, найбільші мегаполіси світу та сучасні технології.",
@@ -53,7 +53,7 @@ window.COUNTRIES = [
   {
     slug:"pakistan", name:"Пакистан", flag:"🇵🇰", image:"images/pakistan.jpg",
     short:"Небезпечні дороги та краєвиди Каракоруму.",
-    capital:"Ісламабад", language:"урду, англійська", currency:"пакистанська рупія", population:"240 млн", bestTime:"квітень — жовтень", episodes:22,
+    capital:"Ісламабад", language:"урду, англійська", currency:"пакистанська рупія", population:"240 млн", bestTime:"квітень — жовтень", episodes:24,
     video:"HmCvdD-7Oyc",
     description:[
       "Найнебезпечніші дороги, високогірні поселення та неймовірні краєвиди Каракоруму.",
@@ -66,7 +66,7 @@ window.COUNTRIES = [
   {
     slug:"brazil", name:"Бразилія", flag:"🇧🇷", image:"images/brazil.jpg",
     short:"Амазонські джунглі, дикі племена та найбільша річка світу.",
-    capital:"Бразиліа", language:"португальська", currency:"реал", population:"215 млн", bestTime:"травень — вересень", episodes:12,
+    capital:"Бразиліа", language:"португальська", currency:"реал", population:"215 млн", bestTime:"травень — вересень", episodes:37,
     video:"YVReMuCH-JY",
     description:[
       "Амазонські джунглі, дикі племена, непрохідні ліси та найбільша річка світу.",
@@ -79,7 +79,7 @@ window.COUNTRIES = [
   {
     slug:"bolivia", name:"Болівія", flag:"🇧🇴", image:"images/bolivia.jpg",
     short:"Солончак Уюні, дорога смерті та гори Анд.",
-    capital:"Сукре (Ла-Пас)", language:"іспанська, кечуа, аймара", currency:"болівіано", population:"12 млн", bestTime:"травень — жовтень", episodes:8,
+    capital:"Сукре (Ла-Пас)", language:"іспанська, кечуа, аймара", currency:"болівіано", population:"12 млн", bestTime:"травень — жовтень", episodes:9,
     video:"LorZ6v6rCdc",
     description:[
       "Солончак Уюні, дорога смерті, гори Анд та високогірні поселення.",
@@ -105,7 +105,7 @@ window.COUNTRIES = [
   {
     slug:"colombia", name:"Колумбія", flag:"🇨🇴", image:"images/colombia.jpg",
     short:"Барвисті міста, гори та кавові плантації.",
-    capital:"Богота", language:"іспанська", currency:"колумбійський песо", population:"52 млн", bestTime:"грудень — березень", episodes:15,
+    capital:"Богота", language:"іспанська", currency:"колумбійський песо", population:"52 млн", bestTime:"грудень — березень", episodes:12,
     video:"wOQaiWKdqO4",
     description:[
       "Барвисті міста, гори, кавові плантації та життя місцевих громад.",
@@ -118,7 +118,7 @@ window.COUNTRIES = [
   {
     slug:"ethiopia", name:"Ефіопія", flag:"🇪🇹", image:"images/ethiopia.jpg",
     short:"Унікальні племена та стародавня історія.",
-    capital:"Аддис-Абеба", language:"амхарська", currency:"етіопський бир", population:"120 млн", bestTime:"жовтень — травень", episodes:4,
+    capital:"Аддис-Абеба", language:"амхарська", currency:"етіопський бир", population:"120 млн", bestTime:"жовтень — травень", episodes:8,
     video:"LpsZmP1mjLY",
     description:[
       "Унікальні племена, стародавня історія та незвичайні традиції населення.",
@@ -157,7 +157,7 @@ window.COUNTRIES = [
   {
     slug:"vietnam", name:"В'єтнам", flag:"🇻🇳", image:"images/vietnam.jpg",
     short:"Рисові тераси, давні міста та унікальна кухня.",
-    capital:"Ханой", language:"в'єтнамська", currency:"донг", population:"100 млн", bestTime:"листопад — квітень", episodes:9,
+    capital:"Ханой", language:"в'єтнамська", currency:"донг", population:"100 млн", bestTime:"листопад — квітень", episodes:19,
     video:"2cnAURjSObQ",
     description:[
       "Рисові тераси, давні міста та унікальна кухня.",
@@ -170,7 +170,7 @@ window.COUNTRIES = [
   {
     slug:"cambodia", name:"Камбоджа", flag:"🇰🇭", image:"images/cambodia.jpg",
     short:"Храмовий комплекс Ангкор та культура кхмерів.",
-    capital:"Пномпень", language:"кхмерська", currency:"ріель", population:"17 млн", bestTime:"листопад — березень", episodes:6,
+    capital:"Пномпень", language:"кхмерська", currency:"ріель", population:"17 млн", bestTime:"листопад — березень", episodes:7,
     video:"8If-cLjmAac",
     description:[
       "Храмовий комплекс Ангкор, стародавня історія та культура кхмерів.",
@@ -196,7 +196,7 @@ window.COUNTRIES = [
   {
     slug:"ukraine", name:"Україна", flag:"🇺🇦", image:"images/ukraine.jpg",
     short:"Карпати, культура та природні пам'ятки України.",
-    capital:"Київ", language:"українська", currency:"гривня", population:"40 млн", bestTime:"травень — вересень", episodes:25,
+    capital:"Київ", language:"українська", currency:"гривня", population:"40 млн", bestTime:"травень — вересень", episodes:29,
     video:"VJjeBkziPB8",
     description:[
       "Спеціальні випуски були присвячені Україні: Карпатам, культурі, традиціям, природним пам'яткам та людям, які прославляють нашу країну у світі.",
@@ -209,7 +209,7 @@ window.COUNTRIES = [
   {
     slug:"cuba", name:"Куба", flag:"🇨🇺", image:"images/cuba.jpg",
     short:"Острів свободи, ретро-авто та колоніальна архітектура.",
-    capital:"Гавана", language:"іспанська", currency:"кубанське песо", population:"11 млн", bestTime:"листопад — квітень", episodes:2,
+    capital:"Гавана", language:"іспанська", currency:"кубанське песо", population:"11 млн", bestTime:"листопад — квітень", episodes:5,
     video:"MFTSbff-Rms",
     description:[
       "Острів свободи, ретро-автомобілі, колоніальна архітектура, музика, океан та повсякденне життя кубинців стали головними темами експедиції.",
@@ -222,7 +222,7 @@ window.COUNTRIES = [
   {
     slug:"mexico", name:"Мексика", flag:"🇲🇽", image:"images/mexico.jpg",
     short:"Піраміди майя, барвисті міста та традиційна кухня.",
-    capital:"Мехіко", language:"іспанська", currency:"мексиканське песо", population:"130 млн", bestTime:"листопад — квітень", episodes:11,
+    capital:"Мехіко", language:"іспанська", currency:"мексиканське песо", population:"130 млн", bestTime:"листопад — квітень", episodes:10,
     video:"pUQCgBKAz0s",
     description:[
       "Піраміди майя, стародавні цивілізації, барвисті міста, традиційна кухня та культурна спадщина зробили мексиканський сезон одним із найцікавіших.",
